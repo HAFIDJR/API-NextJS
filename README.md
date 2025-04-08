@@ -13,7 +13,6 @@
 
 ## 📦 Quick Start
 
-```bash
 # Clone the repository
 git clone https://github.com/your-username/your-repo.git
 
@@ -26,12 +25,15 @@ cp .env.example .env.local
 # Run development server
 npm run dev
 
-🌍 API Endpoints
-Method	Endpoint	Description
-GET	/api/posts	Get all posts
-POST	/api/posts	Create new post
-GET	/api/posts/:id	Get single post
-PUT	/api/posts/:id	Update post
-DELETE	/api/posts/:id	Delete post
-POST	/api/auth	Authenticate user
+## 🌍 API Endpoints
+
+### Posts Endpoints
+
+| Method | Endpoint               | Description                              | Required Headers            |
+|--------|------------------------|------------------------------------------|-----------------------------|
+| `GET`    | `/api/posts`           | Get all posts with pagination           | `none`                      |
+| `POST`   | `/api/posts`           | Create new post                         | `Authorization: Bearer <token>` |
+| `GET`    | `/api/posts/:id`       | Get single post by ID                   | `none`                      |
+| `PUT`    | `/api/posts/:id`       | Update existing post                    | `Authorization: Bearer <token>` |
+| `DELETE` | `/api/posts/:id`       | Delete post                             |
 
