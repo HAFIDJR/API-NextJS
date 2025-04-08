@@ -25,3 +25,13 @@ cp .env.example .env.local
 
 # Run development server
 npm run dev
+
+🌍 API Endpoints
+Method	Endpoint	Description
+GET	/api/posts	Get all posts
+POST	/api/posts	Create new post
+GET	/api/posts/:id	Get single post
+PUT	/api/posts/:id	Update post
+DELETE	/api/posts/:id	Delete post
+POST	/api/auth	Authenticate user
+
