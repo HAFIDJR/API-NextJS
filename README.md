@@ -11,7 +11,7 @@
 - **JWT Authentication** - Secure endpoints with JSON Web Tokens
 - **RESTful Standards** - Follows best practices for API design
 - 
-## 🌍 API Endpoints
+## 🌍 API Endpoints 
 ### Posts Endpoints
 
 | Method | Endpoint               | Description                              | Required Headers            |
@@ -25,7 +25,7 @@
 
 
 ## 📦 Quick Start
-```bash
+```bash 
 # Clone the repository
 git clone https://github.com/your-username/your-repo.git
 
